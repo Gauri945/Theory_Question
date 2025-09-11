@@ -1,0 +1,52 @@
+1. What are the main features of Java?
+Platform-independent, object-oriented, secure, multithreaded, simple, robust, high performance (via JIT).
+
+2. Explain JVM, JDK, and JRE.
+
+JVM (Java Virtual Machine): Runs Java bytecode.
+
+JRE (Java Runtime Environment): JVM + libraries (needed to run Java programs).
+
+JDK (Java Development Kit): JRE + compilers & tools (needed to develop Java programs).
+
+3. Why is Java platform-independent?
+ Because Java code is compiled into bytecode, which runs on the JVM of any OS.
+
+4. Difference between == and .equals()?
+
+== → Compares references (memory location).
+
+.equals() → Compares content (values of objects).
+
+5. Difference between String, StringBuilder, and StringBuffer?
+
+String → Immutable (cannot be changed).
+
+StringBuilder → Mutable, faster, not thread-safe.
+
+StringBuffer → Mutable, thread-safe (synchronized).
+
+6. What are wrapper classes?
+ Classes that convert primitive types into objects. (e.g., int → Integer, double → Double).
+
+7. Difference between checked and unchecked exceptions?
+
+Checked: Must be handled using try-catch or throws (e.g., IOException).
+
+Unchecked: Runtime exceptions, not forced to handle (e.g., NullPointerException).
+
+8. Explain final, finally, and finalize().
+
+final → Keyword (used with classes, methods, variables).
+
+finally → Block in exception handling (always executes).
+
+finalize() → Method called by garbage collector before object destruction.
+
+9. Why is Java not 100% object-oriented?
+ Because it supports primitive types (int, double, etc.).
+
+10. Difference between ArrayList and LinkedList?
+
+ArrayList → Fast random access, slow insert/delete.
+LinkedList → Fast insert/delete, slower random access.
