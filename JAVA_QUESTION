@@ -48,4 +48,4 @@ keyword in Java?
 9. Can we write main method as public void
 static instead of public static void?
  -->No, the order matters. If you write public void static, it will cause a compilation error, because Java expects modifiers in a specific 
-  order (public static before return type)
+  order (public static before return type).
