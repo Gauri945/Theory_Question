@@ -49,4 +49,4 @@ finalize() → Method called by garbage collector before object destruction.
 10. Difference between ArrayList and LinkedList?
 
 ArrayList → Fast random access, slow insert/delete.
-LinkedList → Fast insert/delete, slower random access.
+LinkedList → Fast insert/delete, slower random access...
